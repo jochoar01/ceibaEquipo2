@@ -1,9 +1,0 @@
-2019-07-25 12:38:36 0 [Note] Reading of all Master_info entries succeded
-2019-07-25 12:38:36 0 [Note] Added new Master_info '' to hash table
-2019-07-25 12:38:36 0 [Note] C:\mariadb-10.3.13-winx64\bin\mysqld.exe: ready for connections.
-Version: '10.3.13-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
-2019-11-01 16:38:29 0 [Note] Reading of all Master_info entries succeded
-2019-11-01 16:38:29 0 [Note] Added new Master_info '' to hash table
-2019-11-01 16:38:29 0 [Note] C:\mariadb-10.3.13-winx64\bin\mysqld.exe: ready for connections.
-Version: '10.3.13-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
-2019-11-01 16:52:20 10 [Warning] Aborted connection 10 to db: 'bdclick' user: 'click' host: 'localhost' (Got an error reading communication packets)
