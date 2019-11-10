@@ -6,11 +6,8 @@ import org.springframework.data.repository.Repository;
 import com.ceiba.grupo2.entities.Persona;
 
 public interface PersonaRepositorio extends Repository<Persona, Integer> {
-
 	List<Persona> findAll();
-
-	/* Persona findOne(int id); */
+	Persona getOne(int id);
 	Persona save(Persona p);
-
 	void delete(Persona p);
 }
