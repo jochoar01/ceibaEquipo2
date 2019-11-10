@@ -18,31 +18,31 @@ public class LibroServicesImpl implements LibroService {
 
 	@Override
 	public List<Libro> listar() {
-		// TODO Auto-generated method stub
+		
 		return libroRepository.findAll();
 	}
 
 	@Override
 	public Libro listarId(int id) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
 	@Override
 	public Libro add(Libro libro) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return libroRepository.save(libro);
 	}
 
 	@Override
 	public Libro edit(Libro libro) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
 	@Override
 	public Libro delete(int id) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
