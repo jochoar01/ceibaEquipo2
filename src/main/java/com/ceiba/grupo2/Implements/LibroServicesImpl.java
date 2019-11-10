@@ -25,19 +25,19 @@ public class LibroServicesImpl implements LibroService {
 	@Override
 	public Libro listarId(int id) {
 		
-		return null;
+		return libroRepository.findOne(id);
 	}
 
 	@Override
-	public Libro add(Libro libro) {
+	public Libro add(Libro l) {
 		
-		return libroRepository.save(libro);
+		return libroRepository.save(l);
 	}
 
 	@Override
-	public Libro edit(Libro libro) {
+	public Libro edit(Libro l) {
 		
-		return null;
+		return libroRepository.save(l);
 	}
 
 	@Override
