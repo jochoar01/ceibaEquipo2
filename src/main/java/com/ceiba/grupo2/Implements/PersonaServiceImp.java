@@ -23,7 +23,7 @@ public class PersonaServiceImp implements PersonaService {
 	@Override
 	public Persona listarId(int id) {
 		
-		return personaRepositorio.findOne(id);
+		return personaRepositorio.getOne(id);
 	}
 
 	@Override

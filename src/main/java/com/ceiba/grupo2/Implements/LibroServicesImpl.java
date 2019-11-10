@@ -25,7 +25,7 @@ public class LibroServicesImpl implements LibroService {
 	@Override
 	public Libro listarId(int id) {
 		
-		return libroRepository.findOne(id);
+		return libroRepository.getOne(id);
 	}
 
 	@Override

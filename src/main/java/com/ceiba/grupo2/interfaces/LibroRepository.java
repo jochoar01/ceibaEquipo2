@@ -10,7 +10,7 @@ public interface LibroRepository extends Repository<Libro, Integer> {
 
 	List<Libro> findAll();
 
-	Libro findOne(int id);
+	Libro getOne(int id);
 
 	Libro save(Libro libro);
 
