@@ -16,6 +16,11 @@ export class AddComponent implements OnInit {
   }
 
   Guardar(persona:Persona){
+
+    alert("nombre: ");
+    alert("nombre: " + persona.apellidos);
+    alert("nombre: " + persona.nombre);
+
     this.service.createPersona(persona)
     .subscribe(data=>{
       alert("Se agrego con exito.");

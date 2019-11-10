@@ -30,9 +30,7 @@ public class PersonaContoller {
 	
 	@PostMapping 
 	public Persona agregar(@RequestBody Persona p) {
-		return personaService.add(p);
-		
-		
+		return personaService.add(p);		
 	}
 	
 	@GetMapping(path = {"/{id}"})
