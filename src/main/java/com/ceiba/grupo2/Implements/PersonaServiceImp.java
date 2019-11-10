@@ -22,25 +22,25 @@ public class PersonaServiceImp implements PersonaService {
 
 	@Override
 	public Persona listarId(int id) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
 	@Override
 	public Persona add(Persona p) {
-		// TODO Auto-generated method stub
+		
 		return personaRepositorio.save(p);
 	}
 
 	@Override
 	public Persona edit(Persona p) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
 	@Override
 	public Persona delete(int id) {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
