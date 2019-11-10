@@ -15,6 +15,22 @@
                         <input [(ngModel)]="persona.apellidos" name="apellidos" type="text" class="form-control">
                     </div>
 
+                    <div class="form-group">
+                        <label for="">Celular:</label>
+                        <input [(ngModel)]="persona.celular" name="celular" type="text" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Direccion:</label>
+                        <input [(ngModel)]="persona.direccion" name="direccion" type="text" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Email:</label>
+                        <input [(ngModel)]="persona.email" name="email" type="text" class="form-control">
+                    </div>
+
+
                     <button (click)="Actualizar(persona)" class="btn btn-danger">Actualizar</button>
                 </form>
             </div>
