@@ -1,0 +1,23 @@
+public static void main(String args[]) {
+        System.out.println(getNumeros("2ñ29op28"));
+
+    }//main
+
+    public static int getNumeros(String cadena) {
+
+        //String cadena = "b56m3m234";
+        char[] cadena_div = cadena.toCharArray();
+        int numero = 0;
+
+        for (int i = 0; i < cadena_div.length; i++) {
+            if (Character.isDigit(cadena_div[i])) {
+                System.out.println("entro cuando es numero: " + cadena_div[i]);
+                numero = numero + Integer.parseInt(cadena_div[i] + "");
+            }//if
+
+        }//end for
+        //System.out.println("Numero + "+esnumero);
+        // System.out.println("Suma ="+numero);
+        return numero;
+
+    }
