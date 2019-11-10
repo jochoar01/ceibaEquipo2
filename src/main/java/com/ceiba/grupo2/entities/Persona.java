@@ -1,4 +1,4 @@
-package com.ceiba.grupo2;
+package com.ceiba.grupo2.entities;
 
 import javax.persistence.*;
 
@@ -14,7 +14,12 @@ public class Persona {
 	private String nombre;
 	@Column
 	private String apellidos;
-	
+	@Column
+	private String direccion;
+	@Column
+	private String celular;
+	@Column
+	private String eMail;
 	public int getId() {
 		return id;
 	}
@@ -33,4 +38,24 @@ public class Persona {
 	public void setApellidos(String apellidos) {
 		this.apellidos = apellidos;
 	}
+	public String getDireccion() {
+		return direccion;
+	}
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+	public String getCelular() {
+		return celular;
+	}
+	public void setCelular(String celular) {
+		this.celular = celular;
+	}
+	public String geteMail() {
+		return eMail;
+	}
+	public void seteMail(String eMail) {
+		this.eMail = eMail;
+	}
+	
+
 }

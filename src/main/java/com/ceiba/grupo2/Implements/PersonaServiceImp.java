@@ -1,9 +1,13 @@
-package com.ceiba.grupo2;
+package com.ceiba.grupo2.Implements;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.ceiba.grupo2.entities.Persona;
+import com.ceiba.grupo2.interfaces.PersonaRepositorio;
+import com.ceiba.grupo2.interfaces.PersonaService;
 
 @Service
 public class PersonaServiceImp implements PersonaService {
