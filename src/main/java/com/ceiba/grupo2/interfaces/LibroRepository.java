@@ -14,7 +14,7 @@ import com.ceiba.grupo2.entities.Libro;
 public interface LibroRepository extends Repository<Libro, Integer>{
 
 	List<Libro>findAll();
-	Libro findOne(int id);
+	//Libro findOne(int id);
 	Libro save(Libro libro);
 	void delete(Libro libro);
 	
