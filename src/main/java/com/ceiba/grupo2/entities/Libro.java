@@ -9,7 +9,6 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "libro")
-
 public class Libro {
 
 	@Id
@@ -19,6 +18,8 @@ public class Libro {
 	@Column
 	private String isbn;
 	@Column
+	private String nombre;
+	@Column
 	private int ejemplar;
 	@Column
 	private String prestado;
@@ -26,6 +27,7 @@ public class Libro {
 	private String polindromo;
 	@Column
 	private String isbn_mayor_30;
+	
 	public int getId() {
 		return id;
 	}
@@ -37,6 +39,12 @@ public class Libro {
 	}
 	public void setIsbn(String isbn) {
 		this.isbn = isbn;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 	public int getEjemplar() {
 		return ejemplar;
@@ -62,6 +70,7 @@ public class Libro {
 	public void setIsbn_mayor_30(String isbn_mayor_30) {
 		this.isbn_mayor_30 = isbn_mayor_30;
 	}
+
 
 	
 

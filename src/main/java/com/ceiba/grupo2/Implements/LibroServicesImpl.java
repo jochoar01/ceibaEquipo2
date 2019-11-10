@@ -11,10 +11,10 @@ import com.ceiba.grupo2.interfaces.LibroService;
 
 @Service
 
-public class LibroServicesImpl implements LibroService{
-@Autowired
-   
-     private LibroRepository libroRepository; 
+public class LibroServicesImpl implements LibroService {
+	@Autowired
+
+	private LibroRepository libroRepository;
 
 	@Override
 	public List<Libro> listar() {
@@ -45,7 +45,5 @@ public class LibroServicesImpl implements LibroService{
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-	
 
 }

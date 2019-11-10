@@ -11,17 +11,17 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ceiba.grupo2.entities.Libro;
 import com.ceiba.grupo2.interfaces.LibroService;
 
-@CrossOrigin(origins = "http://localhost:4200",maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 @RestController
-@RequestMapping({"/libros"})
+@RequestMapping({ "/libros" })
 public class LibroController {
-	
+
 	@Autowired
 	LibroService libroService;
-	
-	
+
 	@GetMapping
-	public List<Libro>listar(){
-		return libroService.listar();} 
+	public List<Libro> listar() {
+		return libroService.listar();
+	}
 
 }

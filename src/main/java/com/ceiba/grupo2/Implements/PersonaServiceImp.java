@@ -13,11 +13,11 @@ import com.ceiba.grupo2.interfaces.PersonaService;
 public class PersonaServiceImp implements PersonaService {
 
 	@Autowired
-	private PersonaRepositorio repositorio;
-	
+	private PersonaRepositorio personaRepositorio;
+
 	@Override
 	public List<Persona> listar() {
-		return repositorio.findAll();
+		return personaRepositorio.findAll();
 	}
 
 	@Override
